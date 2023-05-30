@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+    <html lang="en">
+    
+        <head>
+            <meta charset= "utf-8"/>
+            <title>ca2</title>
+            <link href="styles.css" rel="stylesheet"  />
+            <link rel="icon" href="images/favicon.ico"/>
+            <!-- <script src="javascripts/test.js" type="module"></script> -->
+            <script src="bread_chase.js" type="module"></script>
+        </head>
+        
+        <body>
+            <header>
+                <h1>Bread <span class = "brown_bread_text">Chase</span></h1>
+            </header>
+
+            <main>  
+                <section id="game_container">
+                    <canvas id = "game" width="576" height="320"></canvas>
+                    <canvas id = "weather_effects" ></canvas>
+                    <span class="button_container">
+                        <button id="reload" class = "button" type="button">&#x21bb; Reload</button>
+                        <button id="music" class = "button" type="button">&#x1f507; Music</button>
+                        <button id="instructions" class = "button" type="button">Hide Controls</button>
+                    </span>
+                </section>
+                
+                <section id="hidden_instructions">
+                        <h2>Goal</h2>
+                        <p>Collect bread from the geese as a little robot. But beware, 
+                            they are very aggressive. Collect all the bread in one area and 
+                            move to the next by running through the game border.
+                            The more bread you collect, more geese will come after you.
+                        </p>
+                        <p>The game ends once you lose all your health, indicated at the bottom left
+                            corner of the screen.
+                        </p>
+                        <p>Reach 30 points and move on to the Snow Level, which has snow and
+                            an alternative background music.
+                        </p>
+                        <h3>Basic Controls</h2>
+                            <ul>
+                                <li>
+                                    <p>Movement: use the <b>"wasd"</b> or <b>"arrow keys"</b> to move.</p>
+                                </li>
+                                <li>
+                                    <p>Music: click the music button or press <b>"m"</b> to toggle music.</p>
+                                </li>
+                                <li>
+                                    <p>Reload Page: click the reload button or press <b>"r"</b> to reload the page.</p>
+                                </li>
+                                <li>
+                                    <p>Hide Instructions: click the hide instructions button to hide this.</p>
+                                </li>
+                            </ul>
+                        
+                        <h3>Cheats</h2>
+                            <ul>
+                                <li>
+                                    <p>+points: <b>"="</b> to increase points.</p>
+                                </li>
+                                <li>
+                                    <p>-points: <b>"-"</b> to decrease points.</p>
+                                </li>
+                                <li>
+                                    <p>Godmode: <b>"0"</b> to toggle invincibility.</p>
+                                </li>
+                                <li>
+                                    <p>Stop geese: <b>"9"</b> to toggle stopping geese.</p>
+                                </li>
+                                <li>
+                                    <p>Restore Health: <b>"8"</b> to regain all health.</p>
+                                </li>
+                                <li>
+                                    <p>Toggle Knockback: <b>"7"</b> to toggle knockback.</p>
+                                </li>
+                                <li>
+                                    <p>Freeze: <b>"6"</b> to freeze game.</p>
+                                </li>
+                            </ul>
+                </section>
+                
+            </main>
+            <footer>
+                <h4>Credits</h4>
+                <small>
+                    <p>Serene Village Tileset: LimeZu. itch.io</p>
+                    <p>Winter Tileset: Minorthreat0987. deviantart.com</p>
+                    <p>Explosion Sprite: Cuzco. OpenGameArt.org</p>
+                    <p>Foods, Potions & Coins Asset pack: Jan Barboza | GGCoffee. itch.io</p>
+                    <p>Sounds and Music: Anonymous</p>
+                    <p>This game was made by Kevin Lam.</p>
+                </small>
+                
+            </footer>
+
+        </body>
+    
+    </html>
